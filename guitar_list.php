@@ -8,9 +8,9 @@
     $category_id = 1; 
 
     //Connecting to the database
-    $dsn = 'mysql:host=localhost; dbname=web182klbrown13';
-    $username = 'klbrown13';
-    $password = 'KuBro6832';
+    $dsn = 'mysql:host=localhost; dbname=web182[key account name]';
+    $username = '[key account name]';
+    $password = '[key account password]';
 
     $db = new PDO($dsn, $username, $password); //This creates the PHP Data Object
 
